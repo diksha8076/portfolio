@@ -1,161 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diksha Sharma | Web Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diksha. | Web Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
-:root{--bg:#0a0a12;--card:#14141f;--line:#23233a;--purple:#7c3aed;--text:#e5e5e5;--muted:#9ca3af}
-html,body{overflow-x:hidden;width:100%}
-body{background:var(--bg);color:var(--text);line-height:1.6}
-a{text-decoration:none;color:inherit}
-nav{position:fixed;top:0;left:0;right:0;background:rgba(10,10,18,.95);display:flex;justify-content:space-between;align-items:center;padding:16px 5%;z-index:100;border-bottom:1px solid var(--line)}
-.logo{font-size:22px;font-weight:800} .logo span{color:var(--purple)}
-.nav-links{display:flex;gap:22px;font-size:14px;color:var(--muted);align-items:center} .nav-links a:hover{color:#fff}
-.hire-btn{background:var(--purple);color:#fff!important;padding:9px 18px;border-radius:999px;font-weight:600}
-.hero{padding:130px 5% 60px;display:flex;gap:30px;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto}
-.hero-left{flex:1;min-width:280px;max-width:600px}
-.hello{background:#1e1b2e;color:#c4b5fd;padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;display:inline-block}
-.hero-left h1{font-size:52px;line-height:1.05;margin:20px 0 12px}
-.hero-left h1 span{background:linear-gradient(90deg,#8b5cf6,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.hero-left h3{font-size:19px;color:#d1d5db;font-weight:600;margin-bottom:14px}
-.hero-left p{color:var(--muted);margin-bottom:28px}
-.btns{display:flex;gap:12px;flex-wrap:wrap}
-.btn-primary{background:#fff;color:#000;padding:13px 24px;border-radius:999px;font-weight:700;font-size:14px}
-.btn-outline{border:1px solid #444;padding:13px 24px;border-radius:999px;font-weight:600;font-size:14px}
-.stats{display:flex;gap:30px;margin-top:35px;flex-wrap:wrap}
-.stats b{font-size:24px;display:block} .stats span{color:var(--muted);font-size:13px}
-.hero-right{width:280px;height:280px;min-width:280px;border-radius:50%;background:linear-gradient(135deg,#7c3aed,#db2777,#f59e0b);padding:6px;flex-shrink:0}
-.hero-right-inner{width:100%;height:100%;border-radius:50%;background:#14141f;display:flex;align-items:center;justify-content:center;font-size:90px;overflow:hidden}
-.hero-right-inner img{width:100%;height:100%;object-fit:cover}
-section{padding:60px 5%;max-width:1200px;margin:0 auto}
-.sec-label{color:#a78bfa;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
-.sec-title{font-size:32px;margin:8px 0 12px}
-.sec-sub{color:var(--muted);max-width:650px;margin-bottom:30px}
-.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
-.card:hover{border-color:#7c3aed;transform:translateY(-3px);transition:.3s}
-.card-icon{width:48px;height:48px;border-radius:12px;background:#2e1a4a;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px}
-.card h3{font-size:18px;margin-bottom:8px} .card p{color:var(--muted);font-size:14px;margin-bottom:16px}
-.tag{display:inline-block;background:#26263a;padding:4px 10px;border-radius:999px;font-size:11px;margin:0 4px 4px 0;color:#d1d5db}
-.link{color:#a78bfa;font-weight:600;font-size:14px}
-.skills-wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.skill-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
-.skill-top{display:flex;justify-content:space-between;font-size:14px;font-weight:600;margin-bottom:10px}
-.bar{height:7px;background:#26263a;border-radius:999px;overflow:hidden} .fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#7c3aed,#ec4899)}
-.contact-box{background:linear-gradient(135deg,#1e1b2e,#2a0f2e);border:1px solid #3a2a4a;border-radius:20px;padding:40px 20px;text-align:center}
-.contact-box h2{font-size:30px;margin-bottom:10px} .contact-box p{color:var(--muted);margin-bottom:22px}
-footer{padding:20px 5%;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:#6b7280;font-size:13px;flex-wrap:wrap;gap:10px;max-width:1200px;margin:0 auto}
-@media(max-width:900px){.hero{flex-direction:column;text-align:center}.hero-left{max-width:100%}.btns{justify-content:center}.stats{justify-content:center}.hero-right{width:230px;height:230px;min-width:230px}}
-@media(max-width:700px){.hero-left h1{font-size:36px}.nav-links{display:none}.skills-wrap{grid-template-columns:1fr}.hero-right{width:200px;height:200px;min-width:200px}}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0a0a12;color:#fff;overflow-x:hidden}
+a{text-decoration:none;color:#fff}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 6%;position:sticky;top:0;background:#0a0a12;z-index:20;border-bottom:1px solid #1f1f2e;flex-wrap:wrap;gap:10px}
+.logo{font-size:20px;font-weight:700}.logo span{color:#c084fc}
+nav .links a{margin:0 10px;font-size:13px;color:#cbd5e1}
+.hire{background:#d8b4fe;color:#000;padding:9px 20px;border-radius:20px;font-weight:600;font-size:13px}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:50px 6%;gap:40px;flex-wrap:nowrap}
+.hero-left{flex:1;min-width:0}
+.hero-right{flex:0 0 280px;text-align:center}
+.pill{background:#1e1e2e;border:1px solid #a855f7;color:#e9d5ff;padding:7px 14px;border-radius:20px;font-size:12px;display:inline-block}
+.hero h1{font-size:50px;line-height:1.1;margin:16px 0 8px}.hero h1 span{background:linear-gradient(90deg,#e879f9,#a855f7,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero h2{font-size:19px;color:#cbd5e1;font-weight:500}
+.hero p{color:#94a3b8;font-size:14px;line-height:1.7;margin:14px 0 18px}
+.btn-white{background:#fff;color:#000;padding:12px 22px;border-radius:25px;font-weight:600;font-size:13px;display:inline-block}
+.btn-dark{border:1px solid #555;padding:12px 22px;border-radius:25px;font-weight:600;font-size:13px;display:inline-block;margin-left:10px;background:#14141f}
+.btn-pink{display:inline-block;margin-left:10px;background:linear-gradient(90deg,#a855f7,#ec4899);padding:12px 22px;border-radius:25px;font-weight:600;font-size:13px}
+.btn-resume{display:inline-block;margin-left:10px;margin-top:12px;background:#f59e0b;color:#000;padding:12px 22px;border-radius:25px;font-weight:700;font-size:13px}
+.tech-pill{font-size:11px;background:#1e1e2e;border:1px solid #333;padding:5px 11px;border-radius:15px;display:inline-block;margin:0 6px 6px 0}
+.stat-box{background:#13131f;border:1px solid #2e2e45;padding:14px 18px;border-radius:14px;min-width:105px;text-align:center}
+.photo-ring{background:conic-gradient(from 0deg,#ec4899,#a855f7,#f59e0b,#ec4899);padding:5px;border-radius:50%;box-shadow:0 0 40px #ec489955;display:inline-block}
+.photo-ring img{width:250px;height:250px;object-fit:cover;border-radius:50%;display:block;border:5px solid #0a0a12}
+section{padding:45px 6%}
+.label{font-size:11px;letter-spacing:2px;color:#e879f9;font-weight:700}
+h2.sec{font-size:30px;margin:8px 0 10px} h2.sec span{color:#e879f9}
+.sub{color:#94a3b8;font-size:14px;line-height:1.6;max-width:700px}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:25px}
+.mini-card{background:#13131f;border:1px solid #26263a;padding:22px;border-radius:18px}
+.mini-card h3{font-size:16px;margin-bottom:8px}.mini-card p{color:#94a3b8;font-size:13px;line-height:1.6}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:25px}
+.proj{background:#13131f;border:1px solid #2e2e45;padding:22px;border-radius:18px}
+.proj:hover{border-color:#a855f7;transform:translateY(-5px)}
+.icon{width:42px;height:42px;background:#a855f7;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px}
+.proj h3{font-size:16px;margin-bottom:8px}.proj p{color:#94a3b8;font-size:13px;line-height:1.6}
+.tag{font-size:11px;background:#2a2a3d;padding:4px 9px;border-radius:12px;color:#d8b4fe;margin-right:5px;display:inline-block;margin-top:12px}
+.proj a{font-size:13px;color:#fff;margin-right:12px;display:inline-block;margin-top:14px;font-weight:500;cursor:pointer}.proj a span{color:#e879f9}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 40px;margin-top:25px}
+.skill-top{display:flex;justify-content:space-between;font-size:14px;margin-bottom:8px}
+.bar{background:#1e1e2e;height:8px;border-radius:20px;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#a855f7,#ec4899);width:0;transition:1s}
+footer{display:flex;justify-content:space-between;padding:18px 6%;color:#64748b;font-size:12px;flex-wrap:wrap;gap:10px}
+input,textarea{color:#fff}
+input::placeholder,textarea::placeholder{color:#a5b4fc}
+@media(max-width:850px){.hero{flex-direction:column;flex-wrap:wrap;text-align:center}.hero-right{flex:none}.hero h1{font-size:36px}.photo-ring img{width:210px;height:210px}.cards3,.projects{grid-template-columns:1fr}.skills-grid{grid-template-columns:1fr}.btn-dark,.btn-pink,.btn-resume{margin-left:0;margin-top:10px}}
 </style>
 </head>
 <body>
 
-<nav>
-  <div class="logo">Diksha<span>.</span></div>
-  <div class="nav-links">
-    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
-    <a class="hire-btn" href="#contact">Hire Me</a>
-  </div>
-</nav>
+<nav><div class="logo">Diksha<span>.</span></div><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div><a href="#contact" class="hire">Hire Me</a></nav>
 
 <div class="hero">
-  <div class="hero-left">
-    <span class="hello">● Available for new projects</span>
-    <h1>Hi, I'm Diksha<br><span>Web Developer</span></h1>
-    <h3>Building clean, modern & responsive websites.</h3>
-    <p>I am a passionate web developer from Faridabad, India. I create beautiful websites using HTML, CSS, JavaScript, Python, Django & MySQL. I focus on simple design, fast performance and great user experience.</p>
-    <div class="btns">
-      <a class="btn-primary" href="#projects">View My Projects →</a>
-      <a class="btn-outline" href="https://github.com/diksha8076" target="_blank">GitHub Profile</a>
-    </div>
-    <div class="stats">
-      <div><b>4+</b><span>Projects Built</span></div>
-      <div><b>6+</b><span>Technologies</span></div>
-      <div><b>100%</b><span>Dedication</span></div>
-    </div>
-  </div>
-  <div class="hero-right"><div class="hero-right-inner"><img src="diksha.jpg" alt="Diksha Sharma"></div></div>
+<div class="hero-left">
+<span class="pill">🟢 Available for new projects</span>
+<h1>Hi, I'm <span>Diksha</span><br>Python Full Stack Developer</h1>
+<h2>Building clean, modern & <span style="color:#e879f9">responsive websites.</span></h2>
+<p>I am a passionate web developer from Faridabad, India. I create beautiful websites using HTML, CSS, JavaScript, Python, Django & MySQL. I focus on simple design, fast performance and great user experience.</p>
+<div><span class="tech-pill">🐍 Python</span><span class="tech-pill">🎨 Django</span><span class="tech-pill">⚡ JavaScript</span><span class="tech-pill">🗄️ MySQL</span><span class="tech-pill">🌐 HTML / CSS</span></div>
+<div style="margin-top:16px">
+<a href="#projects" class="btn-white">View My Projects ↓</a>
+<a href="https://github.com/diksha8076" target="_blank" class="btn-dark">⭐ GitHub Profile</a>
+<a href="#contact" class="btn-pink">Hire Me →</a>
+<br><a href="Diksharesume.pdf" download="Diksha-Resume.pdf" class="btn-resume">📄 Download Resume ↓</a>
+</div>
+<div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap">
+<div class="stat-box"><b style="font-size:22px;color:#e879f9">4+</b><br><span style="font-size:11px;color:#94a3b8">Projects Built</span></div>
+<div class="stat-box"><b style="font-size:22px;color:#f59e0b">6+</b><br><span style="font-size:11px;color:#94a3b8">Technologies</span></div>
+<div class="stat-box"><b style="font-size:22px;color:#4ade80">100%</b><br><span style="font-size:11px;color:#94a3b8">Dedication</span></div>
+</div>
+</div>
+<div class="hero-right">
+<div class="photo-ring"><img src="Diksha.jpg" alt="Diksha"></div>
+<div style="margin-top:16px">
+<div style="background:#fff;color:#000;padding:8px 14px;border-radius:20px;font-size:12px;font-weight:700;display:inline-block">🐍 Python • Django</div>
+<div style="background:#13131f;border:1px solid #a855f7;padding:8px 14px;border-radius:20px;font-size:12px;font-weight:600;display:inline-block;margin-left:8px;margin-top:8px">⭐ 4+ Projects Done</div>
+</div>
+<div style="margin-top:12px;background:#13131f;border:1px solid #2e2e45;padding:10px 14px;border-radius:14px;font-size:12px;color:#cbd5e1;display:inline-block">📍 Faridabad, India &nbsp;|&nbsp; 💼 Open to Work</div>
+</div>
 </div>
 
-<section id="about">
-  <div class="sec-label">About Me</div>
-  <h2 class="sec-title">Turning ideas into real websites</h2>
-  <p class="sec-sub">I started my journey with HTML & CSS, and now I am building full projects with JavaScript, Django & MySQL. Every project teaches me something new.</p>
-  <div class="grid3">
-    <div class="card"><div class="card-icon">🎨</div><h3>Frontend Design</h3><p>Beautiful, mobile-friendly designs that look great on every device.</p></div>
-    <div class="card"><div class="card-icon">⚡</div><h3>Clean Code</h3><p>Simple, readable and well-structured code that is easy to maintain.</p></div>
-    <div class="card"><div class="card-icon">🚀</div><h3>Live Deployment</h3><p>I deploy my projects on GitHub Pages & Render so anyone can see them live.</p></div>
-  </div>
-</section>
+<section id="about"><span class="label">ABOUT ME</span><h2 class="sec">Turning ideas into <span>real websites</span></h2><p class="sub">I started my journey with HTML & CSS, and now I am building full projects with JavaScript, Django & MySQL. Every project teaches me something new.</p>
+<div class="cards3">
+<div class="mini-card"><h3>🎨 Responsive Design</h3><p>Every design I make looks great on mobile, tablet and desktop. I focus on clean layouts and user-friendly experience.</p></div>
+<div class="mini-card"><h3>💻 Clean Code</h3><p>I write clean, organized and well-structured code that is easy to maintain. Quality code means quality websites.</p></div>
+<div class="mini-card"><h3>🚀 Live Deployment</h3><p>I deploy my projects on GitHub Pages & Render so anyone can see them live. Real projects, real experience.</p></div>
+</div></section>
 
-<section id="projects">
-  <div class="sec-label">My Work</div>
-  <h2 class="sec-title">Featured Projects</h2>
-  <p class="sec-sub">Here are my best projects. Click to see them live.</p>
-  <div class="grid3">
-    <div class="card">
-      <div class="card-icon">🧮</div>
-      <h3>Calculator App</h3>
-      <p>A modern calculator with clean UI. Works perfectly on mobile and desktop. Made with HTML, CSS & JavaScript.</p>
-      <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><br><br>
-      <a class="link" href="https://diksha8076.github.io/calculator-project/" target="_blank">Live Demo →</a> &nbsp; <a class="link" href="https://github.com/diksha8076/calculator-project" target="_blank">Code →</a>
-    </div>
-    <div class="card">
-      <div class="card-icon">🍦</div>
-      <h3>Scoops Ice-Cream Shop</h3>
-      <p>A complete Ice-Cream shop website with menu, cart and beautiful design. Built with Python Django & MySQL.</p>
-      <span class="tag">Python</span><span class="tag">Django</span><span class="tag">MySQL</span><br><br>
-      <a class="link" href="https://scoops-icecream.onrender.com" target="_blank">Live Demo →</a> &nbsp; <a class="link" href="https://github.com/diksha8076/scoops-icecream" target="_blank">Code →</a>
-    </div>
-    <div class="card">
-      <div class="card-icon">🌦️</div>
-      <h3>Weather App</h3>
-      <p>Check live weather of any city instantly. Clean UI with real-time data using Weather API.</p>
-      <span class="tag">Django</span><span class="tag">API</span><span class="tag">JavaScript</span><br><br>
-      <a class="link" href="https://weather-app-5nlf.onrender.com" target="_blank">Live Demo →</a> &nbsp; <a class="link" href="https://github.com/diksha8076/weather-app" target="_blank">Code →</a>
-    </div>
-    <div class="card">
-      <div class="card-icon">💰</div>
-      <h3>Paisa Tracker</h3>
-      <p>Track your daily income and expenses easily. Add kharcha, dekho total balance aur monthly report. Paisa kaha gaya, sab hisaab yahi milega.</p>
-      <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><br><br>
-      <a class="link" href="https://paisa-tracker-9cvg.onrender.com" target="_blank">Live Demo →</a> &nbsp; <a class="link" href="https://github.com/diksha8076/paisa-tracker" target="_blank">Code →</a>
-    </div>
-  </div>
-</section>
+<section id="projects"><span class="label">MY WORK</span><h2 class="sec">Featured Projects</h2><p class="sub">Here are my best projects. Click Live Demo to see real live project, Code to see actual code on GitHub.</p>
+<div class="projects">
+<div class="proj"><div class="icon">🧮</div><h3>Calculator App</h3><p>A modern calculator with clean UI. Works perfectly on mobile and desktop. Made with HTML, CSS & JavaScript.</p><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><br><a href="https://diksha8076.github.io/calculator-project/" target="_blank" rel="noopener">Live Demo <span>→</span></a><a href="https://github.com/diksha8076/calculator-project" target="_blank" rel="noopener">Code <span>→</span></a></div>
+<div class="proj"><div class="icon">🍦</div><h3>Scoops Ice-Cream Shop</h3><p>A complete Ice-Cream shop website with menu, cart and beautiful design. Built with Python Django & MySQL.<br><b style="color:#fbbf24;font-size:12px"></b></p><span class="tag">Python</span><span class="tag">Django</span><span class="tag">MySQL</span><br><a href="https://scoops-icecream.onrender.com" target="_blank" rel="noopener">Live Demo <span>→</span></a><a href="https://github.com/diksha8076/scoops-icecream" target="_blank" rel="noopener">Code <span>→</span></a></div>
+<div class="proj"><div class="icon">🌦️</div><h3>Weather App</h3><p>Check live weather of any city instantly. Clean UI with real-time data using Weather API. Python Django project.<br><b style="color:#fbbf24;font-size:12px"></b></p><span class="tag">Python</span><span class="tag">Django</span><span class="tag">API</span><br><a href="https://weather-app-5nlf.onrender.com" target="_blank" rel="noopener">Live Demo <span>→</span></a><a href="https://github.com/diksha8076/weather-app" target="_blank" rel="noopener">Code <span>→</span></a></div>
+<div class="proj"><div class="icon">💰</div><h3>Paisa Tracker</h3><p>Track your daily income and expenses easily. Add kharcha, dekho total balance aur monthly report. Paisa kaha gaya, sab hisaab yahi milega.<br><b style="color:#fbbf24;font-size:12px"></b></p><span class="tag">Django</span><span class="tag">MySQL</span><span class="tag">Python</span><br><a href="https://paisa-tracker-9cvg.onrender.com" target="_blank" rel="noopener">Live Demo <span>→</span></a><a href="https://github.com/diksha8076/paisa-tracker" target="_blank" rel="noopener">Code <span>→</span></a></div>
+</div></section>
 
-<section id="skills">
-  <div class="sec-label">My Skills</div>
-  <h2 class="sec-title">Technologies I Use</h2>
-  <div class="skills-wrap">
-    <div class="skill-box"><div class="skill-top"><span>HTML & CSS</span><span>90%</span></div><div class="bar"><div class="fill" style="width:90%"></div></div></div>
-    <div class="skill-box"><div class="skill-top"><span>JavaScript</span><span>75%</span></div><div class="bar"><div class="fill" style="width:75%"></div></div></div>
-    <div class="skill-box"><div class="skill-top"><span>Python</span><span>80%</span></div><div class="bar"><div class="fill" style="width:80%"></div></div></div>
-    <div class="skill-box"><div class="skill-top"><span>Django</span><span>70%</span></div><div class="bar"><div class="fill" style="width:70%"></div></div></div>
-    <div class="skill-box"><div class="skill-top"><span>MySQL</span><span>75%</span></div><div class="bar"><div class="fill" style="width:75%"></div></div></div>
-    <div class="skill-box"><div class="skill-top"><span>Git & GitHub</span><span>85%</span></div><div class="bar"><div class="fill" style="width:85%"></div></div></div>
-    <div class="skill-box"><div class="skill-top"><span>Deployment</span><span>80%</span></div><div class="bar"><div class="fill" style="width:80%"></div></div></div>
-  </div>
-</section>
+<section id="skills"><span class="label">MY SKILLS</span><h2 class="sec">Technologies I Use</h2>
+<div class="skills-grid">
+<div><div class="skill-top"><span>HTML & CSS</span><span>90%</span></div><div class="bar"><div class="fill" data-w="90%"></div></div></div>
+<div><div class="skill-top"><span>JavaScript</span><span>75%</span></div><div class="bar"><div class="fill" data-w="75%"></div></div></div>
+<div><div class="skill-top"><span>Python</span><span>80%</span></div><div class="bar"><div class="fill" data-w="80%"></div></div></div>
+<div><div class="skill-top"><span>Django</span><span>70%</span></div><div class="bar"><div class="fill" data-w="70%"></div></div></div>
+<div><div class="skill-top"><span>MySQL</span><span>75%</span></div><div class="bar"><div class="fill" data-w="75%"></div></div></div>
+<div><div class="skill-top"><span>Git & GitHub</span><span>80%</span></div><div class="bar"><div class="fill" data-w="80%"></div></div></div>
+<div><div class="skill-top"><span>Bootstrap</span><span>85%</span></div><div class="bar"><div class="fill" data-w="85%"></div></div></div>
+<div><div class="skill-top"><span>Deployment</span><span>80%</span></div><div class="bar"><div class="fill" data-w="80%"></div></div></div>
+</div></section>
 
 <section id="contact">
-  <div class="contact-box">
-    <div class="sec-label">Contact</div>
-    <h2>Let's work together!</h2>
-    <p>Have a project in mind? Or want to hire me for internship / freelance work? Let's talk.</p>
-    <a class="btn-primary" href="https://github.com/diksha8076" target="_blank" style="display:inline-block">Visit My GitHub</a>
-    <p style="margin-top:20px;font-size:14px">📍 Faridabad, Haryana, India &nbsp; | &nbsp; 💻 github.com/diksha8076</p>
-  </div>
+<div style="background:linear-gradient(135deg,#2e1065,#6d28d9,#a855f7);border-radius:24px;padding:35px 30px;position:relative;overflow:hidden">
+<div style="position:relative;text-align:center">
+<span style="font-size:11px;letter-spacing:3px;color:#e9d5ff;font-weight:700">● CONTACT</span>
+<h2 style="font-size:32px;margin:8px 0">Let's work together!</h2>
+<p style="color:#e9d5ff;font-size:14px;max-width:550px;margin:0 auto;line-height:1.6">Have a project in mind? Or want to hire me for internship / freelance work? Fill the form below - I will reply within a few hours!</p>
+</div>
+<div style="position:relative;display:flex;gap:20px;flex-wrap:wrap;margin-top:28px">
+<form onsubmit="sendMsg(event)" style="flex:1.2;min-width:280px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);padding:22px;border-radius:18px">
+<input id="cName" placeholder="Your Name *" required style="width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.25);color:#fff;margin-bottom:12px;outline:none">
+<input id="cEmail" type="email" placeholder="Your Email *" required style="width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.25);color:#fff;margin-bottom:12px;outline:none">
+<textarea id="cMsg" rows="3" placeholder="Tell me about your project..." required style="width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.25);color:#fff;margin-bottom:12px;outline:none;resize:none"></textarea>
+<button type="submit" style="width:100%;background:#fff;color:#000;padding:13px;border-radius:25px;font-weight:700;border:none;cursor:pointer;font-size:14px">Send Message ✈️</button>
+<p id="msgOk" style="color:#86efac;margin-top:10px;display:none;text-align:center;font-size:13px">✅ Thank you! Your message is ready - Email app khul raha hai...</p>
+</form>
+<div style="flex:1;min-width:260px;background:rgba(0,0,0,.30);border:1px solid rgba(255,255,255,.2);padding:22px;border-radius:18px">
+<h3 style="font-size:16px;margin-bottom:14px">📞 Get In Touch</h3>
+<div style="font-size:13px;line-height:2.1;color:#e9d5ff">📍 Faridabad, Haryana, India<br>📧 dikshabisht843@gmail.com<br>⏰ Reply within few hours<br>💼 Open for Internship & Freelance</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+<a href="mailto:dikshabisht843@gmail.com" style="background:#fff;color:#000;padding:10px 16px;border-radius:20px;font-size:12px;font-weight:600">📧 Send Email</a>
+<a href="https://github.com/diksha8076" target="_blank" style="background:#111;color:#fff;border:1px solid #555;padding:10px 16px;border-radius:20px;font-size:12px;font-weight:600">⭐ GitHub</a>
+<a href="https://wa.me/918076312054?text=Hi%20Diksha!%20I%20saw%20your%20portfolio" target="_blank" style="background:#25D366;color:#000;padding:10px 16px;border-radius:20px;font-size:12px;font-weight:600">💬 WhatsApp</a>
+</div>
+<p style="font-size:11px;color:#c4b5fd;margin-top:14px">✨ Available for: Website • E-Commerce • Django Project • Portfolio</p>
+</div>
+</div>
+</div>
 </section>
 
-<footer>
-  <span>© 2026 Diksha. All rights reserved.</span>
-  <span>Made with ❤️ by Diksha</span>
-</footer>
+<footer><span>© 2026 Diksha. All rights reserved.</span><span>Faridabad, Haryana, India • dikshabisht843@gmail.com</span></footer>
 
-</body>
-</html>
+<script>
+window.addEventListener('load',()=>{document.querySelectorAll('.fill').forEach(f=>setTimeout(()=>f.style.width=f.dataset.w,300))});
+function sendMsg(e){
+  e.preventDefault();
+  var n=document.getElementById('cName').value;
+  var em=document.getElementById('cEmail').value;
+  var m=document.getElementById('cMsg').value;
+  document.getElementById('msgOk').style.display='block';
+  window.open('mailto:dikshabisht843@gmail.com?subject=New Project - From '+encodeURIComponent(n)+'&body='+encodeURIComponent(m+'\n\nFrom: '+n+' ('+em+')'));
+  e.target.reset();
+}
+</script>
+</body></html>
